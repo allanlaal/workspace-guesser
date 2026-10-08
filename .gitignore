@@ -1,0 +1,8 @@
+workspace_guesser_report.json
+workspace_guesser_report.json_
+workspace_guesser_report.json.bak
+workspace_meanings.json
+__pycache__/
+.env
+.cwd
+workspace_guesser_listing.txt

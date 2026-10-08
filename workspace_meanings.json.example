@@ -1,0 +1,32 @@
+{
+  "_comment": [
+    "Meanings for MATE workspaces, keyed by the workspace NAME with the",
+    "leading order marker stripped (subscript digits, superscripts, degree",
+    "sign) -- e.g. the workspace displayed as the subscript-5 aTodo2 is keyed",
+    "'aTodo2'. Names without a 'meaning' have no documented purpose yet and",
+    "the classifier falls back to the bare name."
+  ],
+  "meanings": {
+    "mgmt": "Life management",
+    "EXEC": "Temporary tasks",
+    "C": "truck drivers license",
+    "Q7": "Audi Q7",
+    "PC": "managing my pc",
+    "firefox": "firefox development",
+    "⭐": "self health",
+    "plate": "car hauler trailer",
+    "aSort": "aTodo2 todo AI sorting feature",
+    "dna": "learning, audiobooks, ebooks, goodreads, mtp",
+    "aPrice": "aTodo2 price feature",
+    ".eu+auth": "servers, Oracle, databases, proxmox",
+    "⚖": "accounting, invoices, taxes. product ordering should go to: EXEC"
+  },
+  "rules": [
+    "A workspace name of the form a<UppercaseLetter>... (aTodo2, aSort, aPrice, aChecklist, aMedia) is a subproject of the aTodo2 project.",
+    "Everything belonging to the aTodo2 project goes to the aTodo2 workspace, unless a more specific aTodo2 subproject workspace fits better.",
+    "The 'firefox' workspace is for FIREFOX DEVELOPMENT only (about:config, add-ons, extensions, browser internals, devtools, build/telemetry work). Ordinary web browsing, Google searches, Google Docs/Keep/Sheets and any normal website do NOT belong there -- route them to the workspace matching the page's topic, or to PC.",
+    "Ignore the application name when classifying. The workspace is chosen by what the window is ABOUT, not by which app it is; a Firefox window about aTodo2 goes to aTodo2, not to 'firefox'."
+  ],
+  "atodo2_subproject_pattern": "^a[A-Z]",
+  "catch_all": "SORT"
+}

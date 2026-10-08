@@ -20,9 +20,9 @@ silently ignores missing windows
 
 file an issue in github if you find bugs
 
+## `$ ./workspace_guesser.py --help `
 
-## $ ./workspace_guesser.py --help
-
+```
 usage: workspace_guesser.py [-h] [--env ENV] [--llm-url LLM_URL] [--cache-dir CACHE_DIR] [--desktop DESKTOP] [--limit LIMIT] [--bump-unknowns] [--bump] [--title TEXT] [--focus] [--list-classes] [--class PATTERN] [--class-exact] [--batch BATCH] [--jobs JOBS]
                             [--llm-timeout LLM_TIMEOUT] [--retries RETRIES] [--model MODEL] [--num-predict NUM_PREDICT] [--ocr-lang OCR_LANG] [--ocr-max-chars OCR_MAX_CHARS] [--no-ocr] [--max-ocr MAX_OCR] [--unknown-ws UNKNOWN_WS] [--yes] [--apply] [--all-workspaces]
                             [--no-strict-retry] [--repair-desktop] [--apply-report APPLY_REPORT] [--review REPORT] [--undo] [--restore-from BACKUP] [--report REPORT]
@@ -83,4 +83,5 @@ options:
   --restore-from BACKUP
                         offline: restore window placements from a 'wmctrl -l' snapshot (file or directory), no LLM
   --report REPORT
+```
 
